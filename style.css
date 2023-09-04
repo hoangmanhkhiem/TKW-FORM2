@@ -1,0 +1,38 @@
+div.form label::before {
+    content: "*";
+    color: red;
+    margin-right: 10px;
+}
+
+.kv::before{
+    content: "*";
+    color: red;
+    margin-right: 10px;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+table tr td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+input[type="submit"]{
+    margin: 10px;
+    width: 100px;
+}
+
+.inffo{
+    margin-left: 600px;
+}
+
+.uni{
+    text-align: center;
+}
+.note{
+    color: red;
+}
+.tb2{
+    margin-left: 150px;
+}
